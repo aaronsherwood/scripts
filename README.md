@@ -15,5 +15,5 @@
 
 * DS_Store `printf 'DS_Store\n' >> .gitignore`
 
-### cannot upload to github problem
+### cannot push to github problem
 `git config http.postBuffer 524288000`
