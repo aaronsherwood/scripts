@@ -7,7 +7,7 @@
 ### Add mask to video (from Pi)
 `ffmpeg -i video.mp4 -i mask.png -filter_complex "[1:v]scale=1920:1080,format=rgba[resize]; [0:v][resize]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2:format=rgb" -c:a copy output.mp4`
 ### Change framerate of video
-ffmpeg -i input.mp4 -filter:v fps=25 output.mp4
+`ffmpeg -i input.mp4 -filter:v fps=25 output.mp4`
 
 ## Git
 ### gitignore
