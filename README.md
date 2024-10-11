@@ -9,11 +9,11 @@
 ### Change framerate of video
 ffmpeg -i mujorecordingsessionbase.mp4 -filter:v fps=25 mujorecordingsessionbase_25.mp4
 
-## gitignore
-* Ignore images and videos
-`printf '*.jpg\n*.jpeg\n*.png\n*.gif\n*.mov\n*.mp4\n*.svg\n' >> .gitignore`
+## Git
+### gitignore
+* Ignore images and videos `printf '*.jpg\n*.jpeg\n*.png\n*.gif\n*.mov\n*.mp4\n*.svg\n' >> .gitignore`
 
 * DS_Store `printf 'DS_Store\n' >> .gitignore`
 
-## cannot upload to github problem
+### cannot upload to github problem
 `git config http.postBuffer 524288000`
